@@ -32,25 +32,17 @@ writeout() { output="$output""$1"; }
 
 parse_repo() {
     repo="https://github.com/$1"
-    repotmp="$tmpd/$1"
     writeout "$1\n\n"
-    rm -rf "$repotmp"
-    echo Cloning repo "$repo"
-    git clone --depth=1 "$repo" "$repotmp" 2> /dev/null
 
     count=0
-    while read -r workflow; do
-        [[ "$workflow" != *.yaml ]] && [[ "$workflow" != *.yml ]] && continue
-        echo Parsing workflow "$workflow"
-        name=$(yq e -M -N '.name' "${repotmp}/${workflow}")
-        [ -z "$name" ] && name="$workflow"
+    while read -r name; do
         encoded_name="$(urlencode "$name")"
         writeout "["
         writeout "![${name}](${repo}/workflows/$encoded_name/badge.svg)"
         writeout "]"
         writeout "(${repo}/actions?query=workflow:\"$encoded_name\") "
         count=$((count+1))
-    done < <(git -C "$repotmp" ls-tree -r HEAD | awk '{print $4}' | grep '^.github/workflows/')
+    done < <(curl -sL "https://api.github.com/repos/$1/actions/workflows" | jq -r '.workflows.[].name')
 
     [ $count -eq 0 ] && writeout "(none)"
     writeout "\n\n"
@@ -58,7 +50,7 @@ parse_repo() {
 }
 
 [ "$#" -lt 4 ] && usage
-command -v yq > /dev/null || { echo "Need yq"; exit 1; }
+command -v jq > /dev/null || { echo "Need jq"; exit 1; }
 
 OPTIND=1
 while getopts ":ho:i:" opt; do
