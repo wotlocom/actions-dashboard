@@ -20,7 +20,7 @@ jobs:
 
     - name: Generate
       run: |
-        ./fetch.sh -o repos.md
+        ./fetch.sh -u $GITHUB_ACTOR -o repos.md
         ./generate.sh -o dashboard.md -i repos.md
         if [ -z "$(git status -s -- dashboard.md repos.md)" ]; then
           echo No changes to commit
