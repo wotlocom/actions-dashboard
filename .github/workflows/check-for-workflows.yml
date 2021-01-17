@@ -19,7 +19,7 @@ jobs:
 
     - name: Install yq
       run: |
-        sudo snap install yq
+        sudo snap install yq --edge
 
     - name: Generate
       run: |
