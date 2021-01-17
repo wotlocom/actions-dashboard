@@ -44,7 +44,6 @@ parse_repo() {
         count=$((count+1))
     done < <(curl -sL "https://api.github.com/repos/$1/actions/workflows" | jq -r '.workflows[].name')
 
-    [ $count -eq 0 ] && writeout " (none)"
     writeout " |\n"
     echo " Generated markdown for $1"
 }
