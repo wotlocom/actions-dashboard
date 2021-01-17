@@ -2,7 +2,7 @@
 
 thomasleplus/actions-dashboard
 
-(none)
+[![Check for workflows](https://github.com/thomasleplus/actions-dashboard/workflows/Check%20for%20workflows/badge.svg)](https://github.com/thomasleplus/actions-dashboard/actions?query=workflow:"Check%20for%20workflows") 
 
 thomasleplus/ADO
 
@@ -10,11 +10,11 @@ thomasleplus/ADO
 
 thomasleplus/android-nfc-timestamp
 
-(none)
+[![Gradle](https://github.com/thomasleplus/android-nfc-timestamp/workflows/Gradle/badge.svg)](https://github.com/thomasleplus/android-nfc-timestamp/actions?query=workflow:"Gradle") 
 
 thomasleplus/Asn1dump
 
-(none)
+[![CodeQL](https://github.com/thomasleplus/Asn1dump/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/Asn1dump/actions?query=workflow:"CodeQL") 
 
 thomasleplus/bazaar
 
@@ -22,11 +22,11 @@ thomasleplus/bazaar
 
 thomasleplus/bookmarklets
 
-(none)
+[![CodeQL](https://github.com/thomasleplus/bookmarklets/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/bookmarklets/actions?query=workflow:"CodeQL") 
 
 thomasleplus/CafeBab
 
-(none)
+[![CodeQL](https://github.com/thomasleplus/CafeBab/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/CafeBab/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/CafeBab/workflows/Maven/badge.svg)](https://github.com/thomasleplus/CafeBab/actions?query=workflow:"Maven") 
 
 thomasleplus/calendars
 
@@ -38,39 +38,39 @@ thomasleplus/code-quantum
 
 thomasleplus/crazy-santa
 
-(none)
+[![CodeQL](https://github.com/thomasleplus/crazy-santa/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/crazy-santa/actions?query=workflow:"CodeQL") 
 
 thomasleplus/DBGrep
 
-(none)
+[![CodeQL](https://github.com/thomasleplus/DBGrep/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/DBGrep/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/DBGrep/workflows/Maven/badge.svg)](https://github.com/thomasleplus/DBGrep/actions?query=workflow:"Maven") 
 
 thomasleplus/decritic
 
-(none)
+[![Go](https://github.com/thomasleplus/decritic/workflows/Go/badge.svg)](https://github.com/thomasleplus/decritic/actions?query=workflow:"Go") 
 
 thomasleplus/docker-aws-cli
 
-(none)
+[![Docker](https://github.com/thomasleplus/docker-aws-cli/workflows/Docker/badge.svg)](https://github.com/thomasleplus/docker-aws-cli/actions?query=workflow:"Docker") 
 
 thomasleplus/docker-csv
 
-(none)
+[![Docker](https://github.com/thomasleplus/docker-csv/workflows/Docker/badge.svg)](https://github.com/thomasleplus/docker-csv/actions?query=workflow:"Docker") 
 
 thomasleplus/docker-hash
 
-(none)
+[![Docker](https://github.com/thomasleplus/docker-hash/workflows/Docker/badge.svg)](https://github.com/thomasleplus/docker-hash/actions?query=workflow:"Docker") 
 
 thomasleplus/docker-img
 
-(none)
+[![Docker](https://github.com/thomasleplus/docker-img/workflows/Docker/badge.svg)](https://github.com/thomasleplus/docker-img/actions?query=workflow:"Docker") 
 
 thomasleplus/docker-java-info
 
-(none)
+[![CodeQL](https://github.com/thomasleplus/docker-java-info/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/docker-java-info/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/docker-java-info/workflows/Maven/badge.svg)](https://github.com/thomasleplus/docker-java-info/actions?query=workflow:"Maven") 
 
 thomasleplus/docker-json
 
-(none)
+[![Docker](https://github.com/thomasleplus/docker-json/workflows/Docker/badge.svg)](https://github.com/thomasleplus/docker-json/actions?query=workflow:"Docker") 
 
 thomasleplus/docker-kafka
 
@@ -78,31 +78,31 @@ thomasleplus/docker-kafka
 
 thomasleplus/docker-kali
 
-(none)
+[![Docker](https://github.com/thomasleplus/docker-kali/workflows/Docker/badge.svg)](https://github.com/thomasleplus/docker-kali/actions?query=workflow:"Docker") 
 
 thomasleplus/docker-latex
 
-(none)
+[![Docker](https://github.com/thomasleplus/docker-latex/workflows/Docker/badge.svg)](https://github.com/thomasleplus/docker-latex/actions?query=workflow:"Docker") 
 
 thomasleplus/docker-pdf
 
-(none)
+[![Docker](https://github.com/thomasleplus/docker-pdf/workflows/Docker/badge.svg)](https://github.com/thomasleplus/docker-pdf/actions?query=workflow:"Docker") 
 
 thomasleplus/docker-qrcode
 
-(none)
+[![Docker](https://github.com/thomasleplus/docker-qrcode/workflows/Docker/badge.svg)](https://github.com/thomasleplus/docker-qrcode/actions?query=workflow:"Docker") 
 
 thomasleplus/docker-tor
 
-(none)
+[![Docker](https://github.com/thomasleplus/docker-tor/workflows/Docker/badge.svg)](https://github.com/thomasleplus/docker-tor/actions?query=workflow:"Docker") 
 
 thomasleplus/docker-xml
 
-(none)
+[![Docker](https://github.com/thomasleplus/docker-xml/workflows/Docker/badge.svg)](https://github.com/thomasleplus/docker-xml/actions?query=workflow:"Docker") 
 
 thomasleplus/docker-yaml
 
-(none)
+[![Docker](https://github.com/thomasleplus/docker-yaml/workflows/Docker/badge.svg)](https://github.com/thomasleplus/docker-yaml/actions?query=workflow:"Docker") 
 
 thomasleplus/ethereum
 
@@ -110,7 +110,7 @@ thomasleplus/ethereum
 
 thomasleplus/FetchMuniTimes
 
-(none)
+[![CodeQL](https://github.com/thomasleplus/FetchMuniTimes/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/FetchMuniTimes/actions?query=workflow:"CodeQL") 
 
 thomasleplus/firepwned
 
@@ -122,19 +122,19 @@ thomasleplus/gcontacts-birthdays
 
 thomasleplus/gdrive-archive
 
-(none)
+[![CodeQL](https://github.com/thomasleplus/gdrive-archive/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/gdrive-archive/actions?query=workflow:"CodeQL") 
 
 thomasleplus/gphotos-archive
 
-(none)
+[![CodeQL](https://github.com/thomasleplus/gphotos-archive/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/gphotos-archive/actions?query=workflow:"CodeQL") 
 
 thomasleplus/gpsio
 
-(none)
+[![CodeQL](https://github.com/thomasleplus/gpsio/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/gpsio/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/gpsio/workflows/Maven/badge.svg)](https://github.com/thomasleplus/gpsio/actions?query=workflow:"Maven") 
 
 thomasleplus/java-sql-inspector
 
-(none)
+[![CodeQL](https://github.com/thomasleplus/java-sql-inspector/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/java-sql-inspector/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/java-sql-inspector/workflows/Maven/badge.svg)](https://github.com/thomasleplus/java-sql-inspector/actions?query=workflow:"Maven") 
 
 thomasleplus/JavaInfo
 
@@ -146,7 +146,7 @@ thomasleplus/jdk-serial-filter-trace
 
 thomasleplus/JEP-290
 
-(none)
+[![CodeQL](https://github.com/thomasleplus/JEP-290/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/JEP-290/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/JEP-290/workflows/Maven/badge.svg)](https://github.com/thomasleplus/JEP-290/actions?query=workflow:"Maven") 
 
 thomasleplus/jwt-utils
 
@@ -162,7 +162,7 @@ thomasleplus/macosx
 
 thomasleplus/openid-connect-provider-debugger
 
-(none)
+[![Docker](https://github.com/thomasleplus/openid-connect-provider-debugger/workflows/Docker/badge.svg)](https://github.com/thomasleplus/openid-connect-provider-debugger/actions?query=workflow:"Docker") 
 
 thomasleplus/pingidentity-server-profiles
 
@@ -170,7 +170,7 @@ thomasleplus/pingidentity-server-profiles
 
 thomasleplus/raspberry-pi-gpio
 
-(none)
+[![CodeQL](https://github.com/thomasleplus/raspberry-pi-gpio/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/raspberry-pi-gpio/actions?query=workflow:"CodeQL") 
 
 thomasleplus/raspberry-pi-utils
 
@@ -178,11 +178,11 @@ thomasleplus/raspberry-pi-utils
 
 thomasleplus/ristretto
 
-(none)
+[![CodeQL](https://github.com/thomasleplus/ristretto/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/ristretto/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/ristretto/workflows/Maven/badge.svg)](https://github.com/thomasleplus/ristretto/actions?query=workflow:"Maven") 
 
 thomasleplus/SubChannel
 
-(none)
+[![CodeQL](https://github.com/thomasleplus/SubChannel/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/SubChannel/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/SubChannel/workflows/Maven/badge.svg)](https://github.com/thomasleplus/SubChannel/actions?query=workflow:"Maven") 
 
 thomasleplus/tinkerit
 
@@ -194,19 +194,19 @@ thomasleplus/URL2PDF
 
 thomasleplus/VisualCrypto
 
-(none)
+[![CodeQL](https://github.com/thomasleplus/VisualCrypto/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/VisualCrypto/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/VisualCrypto/workflows/Maven/badge.svg)](https://github.com/thomasleplus/VisualCrypto/actions?query=workflow:"Maven") 
 
 thomasleplus/xee
 
-(none)
+[![CodeQL](https://github.com/thomasleplus/xee/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/xee/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/xee/workflows/Maven/badge.svg)](https://github.com/thomasleplus/xee/actions?query=workflow:"Maven") 
 
 thomasleplus/xsl-transformations
 
-(none)
+[![CodeQL](https://github.com/thomasleplus/xsl-transformations/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/xsl-transformations/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/xsl-transformations/workflows/Maven/badge.svg)](https://github.com/thomasleplus/xsl-transformations/actions?query=workflow:"Maven") 
 
 thomasleplus/ZymoloJ
 
-(none)
+[![CodeQL](https://github.com/thomasleplus/ZymoloJ/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/ZymoloJ/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/ZymoloJ/workflows/Maven/badge.svg)](https://github.com/thomasleplus/ZymoloJ/actions?query=workflow:"Maven") 
 
 ---
 
