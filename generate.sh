@@ -36,9 +36,8 @@ parse_repo() {
     writeout "$1\n\n"
     rm -rf "$repotmp"
     echo Cloning repo "$repo"
-    git clone --depth=1 "$repo" "$repotmp"
-    find "$repotmp" -type f
-    
+    git clone --depth=1 "$repo" "$repotmp" 2> /dev/null
+
     count=0
     while read -r workflow; do
         [[ "$workflow" != *.yaml ]] && [[ "$workflow" != *.yml ]] && continue
