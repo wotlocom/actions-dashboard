@@ -35,14 +35,14 @@ parse_repo() {
     repotmp="$tmpd/$1"
     writeout "$1\n\n"
     rm -rf "$repotmp"
-    echo Cloning repo "$repo"...
+    echo Cloning repo "$repo"
     git clone --depth=1 "$repo" "$repotmp" 2> /dev/null
 
     count=0
     while read -r workflow; do
         [[ "$workflow" != *.yaml ]] && [[ "$workflow" != *.yml ]] && continue
-        echo Parsing workflow "$workflow"...
-        name=$(yq e -M -N 'name' "${repotmp}/${workflow}")
+        echo Parsing workflow "$workflow"
+        name=$(yq e -M -N '.name' "${repotmp}/${workflow}")
         [ -z "$name" ] && name="$workflow"
         encoded_name="$(urlencode "$name")"
         writeout "["
