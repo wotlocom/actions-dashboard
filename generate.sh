@@ -42,7 +42,7 @@ parse_repo() {
         writeout "]"
         writeout "(${repo}/actions?query=workflow:\"$encoded_name\") "
         count=$((count+1))
-    done < <(curl -sL "https://api.github.com/repos/$1/actions/workflows" | jq -r '.workflows.[].name')
+    done < <(curl -sL "https://api.github.com/repos/$1/actions/workflows" | jq -r '.workflows[].name')
 
     [ $count -eq 0 ] && writeout "(none)"
     writeout "\n\n"
