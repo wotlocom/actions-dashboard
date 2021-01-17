@@ -48,7 +48,7 @@ while read -r line; do
     writeout "$line\n"
     count=$((count+1))
 done < <(curl -sL "https://api.github.com/users/$username/repos?per_page=100" | jq -r '.[].full_name' )
-[ $count -eq 0 ] && { echo "Failed to read $i"; exit 1; }
+[ $count -eq 0 ] && { echo "Failed to read"; exit 1; }
 
 echo -e "$output" > "$output_file"
 echo Wrote to "$output_file"
