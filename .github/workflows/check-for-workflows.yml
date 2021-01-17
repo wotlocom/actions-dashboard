@@ -13,6 +13,10 @@ jobs:
     - name: Check out
       uses: actions/checkout@v2
 
+    - name: Install jq
+      run: |
+        sudo apt install jq
+
     - name: Install yq
       run: |
         sudo wget -LO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/download/4.4.0/yq_linux_amd64
