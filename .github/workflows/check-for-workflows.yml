@@ -17,10 +17,6 @@ jobs:
       run: |
         sudo apt install jq
 
-    - name: Install yq
-      run: |
-        sudo snap install yq
-
     - name: Generate
       run: |
         ./fetch.sh -u $GITHUB_ACTOR -o repos.md
