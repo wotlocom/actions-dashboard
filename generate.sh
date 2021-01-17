@@ -32,7 +32,7 @@ writeout() { output="$output""$1"; }
 
 parse_repo() {
     repo="https://github.com/$1"
-    writeout "$1\n\n"
+    writeout "$repo\n\n"
 
     count=0
     while read -r name; do
