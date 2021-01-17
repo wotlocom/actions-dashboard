@@ -15,7 +15,7 @@ jobs:
 
     - name: Install yq
       run: |
-        sudo wget -LO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/download/3.3.0/yq_linux_amd64
+        sudo wget -LO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/download/4.4.0/yq_linux_amd64
         sudo chmod +x /usr/local/bin/yq
 
     - name: Generate
