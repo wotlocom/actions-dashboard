@@ -32,7 +32,7 @@ writeout() { output="$output""$1"; }
 
 parse_repo() {
     repo="https://github.com/$1"
-    writeout "* $repo"
+    writeout "| $repo |"
 
     count=0
     while read -r name; do
@@ -45,7 +45,7 @@ parse_repo() {
     done < <(curl -sL "https://api.github.com/repos/$1/actions/workflows" | jq -r '.workflows[].name')
 
     [ $count -eq 0 ] && writeout " (none)"
-    writeout "\n"
+    writeout " |\n"
     echo " Generated markdown for $1"
 }
 
@@ -71,6 +71,8 @@ done
 
 tmpd="$(mktemp -d -t dashboardXXXX)"
 
+writeout "| Repo | Actions |\n"
+writeout "| --- | --- |\n"
 for i in "${inputs[@]}"; do
     echo Generating markdown for "${i##*/}"...
     count=0
