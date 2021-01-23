@@ -44,7 +44,7 @@
 | https://github.com/thomasleplus/pingidentity-server-profiles | |
 | https://github.com/thomasleplus/raspberry-pi-gpio | [![CodeQL](https://github.com/thomasleplus/raspberry-pi-gpio/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/raspberry-pi-gpio/actions?query=workflow:"CodeQL") |
 | https://github.com/thomasleplus/raspberry-pi-utils | |
-| https://github.com/thomasleplus/ristretto | [![CodeQL](https://github.com/thomasleplus/ristretto/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/ristretto/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/ristretto/workflows/Maven/badge.svg)](https://github.com/thomasleplus/ristretto/actions?query=workflow:"Maven") |
+| https://github.com/thomasleplus/ristretto | [![CodeQL](https://github.com/thomasleplus/ristretto/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/ristretto/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/ristretto/workflows/Maven/badge.svg)](https://github.com/thomasleplus/ristretto/actions?query=workflow:"Maven") [![Publish](https://github.com/thomasleplus/ristretto/workflows/Publish/badge.svg)](https://github.com/thomasleplus/ristretto/actions?query=workflow:"Publish") |
 | https://github.com/thomasleplus/SubChannel | [![CodeQL](https://github.com/thomasleplus/SubChannel/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/SubChannel/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/SubChannel/workflows/Maven/badge.svg)](https://github.com/thomasleplus/SubChannel/actions?query=workflow:"Maven") |
 | https://github.com/thomasleplus/tinkerit | |
 | https://github.com/thomasleplus/URL2PDF | |
