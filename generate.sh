@@ -31,12 +31,13 @@ isurl() { [[ "$1" =~ https?://* ]]; }
 writeout() { output="$output""$1"; }
 
 parse_repo() {
-    repo="https://github.com/$1"
+    project="$1"
+    repo="https://github.com/${project}"
     writeout "| $repo |"
 
     docker=0
     while read -r name; do
-	if [ "${name}" = Docker ]; then
+	if [[ "${name}" =~ [Dd]ocker ]]; then
 	    docker=1
 	fi
         encoded_name="$(urlencode "$name")"
@@ -46,8 +47,8 @@ parse_repo() {
         writeout "(${repo}/actions?query=workflow:\"$encoded_name\")"
     done < <(curl -sL "https://api.github.com/repos/$1/actions/workflows" | jq -r '.workflows[].name')
 
-    if [ ${docker} ]; then
-	repo_short="${repo/\/docker-/\/}"
+    if [ ${docker} -eq 1 ]; then
+	repo_short="${project/\/docker-/\/}"
         writeout " [![Docker Build](https://img.shields.io/docker/cloud/build/${repo_short})](https://hub.docker.com/r/${repo_short})"
     fi
     
