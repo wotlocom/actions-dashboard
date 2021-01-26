@@ -34,16 +34,23 @@ parse_repo() {
     repo="https://github.com/$1"
     writeout "| $repo |"
 
-    count=0
+    docker=0
     while read -r name; do
+	if [ "${name}" = Docker ]; then
+	    docker=1
+	fi
         encoded_name="$(urlencode "$name")"
         writeout " ["
         writeout "![${name}](${repo}/workflows/$encoded_name/badge.svg)"
         writeout "]"
         writeout "(${repo}/actions?query=workflow:\"$encoded_name\")"
-        count=$((count+1))
     done < <(curl -sL "https://api.github.com/repos/$1/actions/workflows" | jq -r '.workflows[].name')
 
+    if [ ${docker} ]; then
+	repo_short="${repo/\/docker-/\/}"
+        writeout " [![Docker Build](https://img.shields.io/docker/cloud/build/${repo_short})](https://hub.docker.com/r/${repo_short})"
+    fi
+    
     writeout " |\n"
     echo " Generated markdown for $1"
 }
