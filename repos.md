@@ -20,6 +20,7 @@ thomasleplus/docker-kafka
 thomasleplus/docker-kali
 thomasleplus/docker-latex
 thomasleplus/docker-pdf
+thomasleplus/docker-pgp-verify-jar
 thomasleplus/docker-qrcode
 thomasleplus/docker-tor
 thomasleplus/docker-xml
