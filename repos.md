@@ -46,7 +46,6 @@ thomasleplus/raspberry-pi-utils
 thomasleplus/ristretto
 thomasleplus/SubChannel
 thomasleplus/tinkerit
-thomasleplus/URL2PDF
 thomasleplus/VisualCrypto
 thomasleplus/xee
 thomasleplus/xsl-transformations
