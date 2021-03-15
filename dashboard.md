@@ -48,10 +48,10 @@
 | https://github.com/thomasleplus/ristretto | [![CodeQL](https://github.com/thomasleplus/ristretto/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/ristretto/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/ristretto/workflows/Maven/badge.svg)](https://github.com/thomasleplus/ristretto/actions?query=workflow:"Maven") [![Publish](https://github.com/thomasleplus/ristretto/workflows/Publish/badge.svg)](https://github.com/thomasleplus/ristretto/actions?query=workflow:"Publish") |
 | https://github.com/thomasleplus/SubChannel | [![CodeQL](https://github.com/thomasleplus/SubChannel/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/SubChannel/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/SubChannel/workflows/Maven/badge.svg)](https://github.com/thomasleplus/SubChannel/actions?query=workflow:"Maven") |
 | https://github.com/thomasleplus/tinkerit | |
-| https://github.com/thomasleplus/VisualCrypto | [![CodeQL](https://github.com/thomasleplus/VisualCrypto/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/VisualCrypto/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/VisualCrypto/workflows/Maven/badge.svg)](https://github.com/thomasleplus/VisualCrypto/actions?query=workflow:"Maven") |
-| https://github.com/thomasleplus/xee | [![CodeQL](https://github.com/thomasleplus/xee/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/xee/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/xee/workflows/Maven/badge.svg)](https://github.com/thomasleplus/xee/actions?query=workflow:"Maven") |
-| https://github.com/thomasleplus/xsl-transformations | [![CodeQL](https://github.com/thomasleplus/xsl-transformations/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/xsl-transformations/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/xsl-transformations/workflows/Maven/badge.svg)](https://github.com/thomasleplus/xsl-transformations/actions?query=workflow:"Maven") |
-| https://github.com/thomasleplus/ZymoloJ | [![CodeQL](https://github.com/thomasleplus/ZymoloJ/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/ZymoloJ/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/ZymoloJ/workflows/Maven/badge.svg)](https://github.com/thomasleplus/ZymoloJ/actions?query=workflow:"Maven") |
+| https://github.com/thomasleplus/VisualCrypto | |
+| https://github.com/thomasleplus/xee | |
+| https://github.com/thomasleplus/xsl-transformations | |
+| https://github.com/thomasleplus/ZymoloJ | |
 ---
 
 
