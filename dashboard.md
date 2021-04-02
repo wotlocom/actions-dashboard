@@ -38,7 +38,7 @@
 | https://github.com/thomasleplus/JavaInfo | |
 | https://github.com/thomasleplus/jdk-serial-filter-trace | |
 | https://github.com/thomasleplus/JEP-290 | [![CodeQL](https://github.com/thomasleplus/JEP-290/workflows/CodeQL/badge.svg)](https://github.com/thomasleplus/JEP-290/actions?query=workflow:"CodeQL") [![Maven](https://github.com/thomasleplus/JEP-290/workflows/Maven/badge.svg)](https://github.com/thomasleplus/JEP-290/actions?query=workflow:"Maven") |
-| https://github.com/thomasleplus/jwt-utils | |
+| https://github.com/thomasleplus/jwt-utils | [![shellcheck](https://github.com/thomasleplus/jwt-utils/workflows/shellcheck/badge.svg)](https://github.com/thomasleplus/jwt-utils/actions?query=workflow:"shellcheck") |
 | https://github.com/thomasleplus/kml-utils | |
 | https://github.com/thomasleplus/macosx | |
 | https://github.com/thomasleplus/openid-connect-provider-debugger | [![Docker](https://github.com/thomasleplus/openid-connect-provider-debugger/workflows/Docker/badge.svg)](https://github.com/thomasleplus/openid-connect-provider-debugger/actions?query=workflow:"Docker") [![Docker Build](https://img.shields.io/docker/cloud/build/thomasleplus/openid-connect-provider-debugger)](https://hub.docker.com/r/thomasleplus/openid-connect-provider-debugger) |
