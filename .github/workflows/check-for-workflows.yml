@@ -16,7 +16,8 @@ jobs:
 
     - name: Install jq
       run: |
-        sudo apt install jq
+        sudo apt update
+        sudo apt install -y jq
 
     - name: Generate
       run: |
