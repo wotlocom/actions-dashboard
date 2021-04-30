@@ -52,7 +52,7 @@ parse_repo() {
         writeout " [![Docker Build](https://img.shields.io/docker/cloud/build/${1})](https://hub.docker.com/r/${1})"
     fi
     
-    writeout " [![GitHub PR](https://img.shields.io/github/issues-pr/${1}.svg)](https://GitHub.com/${1}/pull/)"
+    writeout " [![GitHub PR](https://img.shields.io/github/issues-pr/${1}.svg)](https://GitHub.com/${1}/pulls)"
     
     writeout " |\n"
     echo " Generated markdown for $1"
