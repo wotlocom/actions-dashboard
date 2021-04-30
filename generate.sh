@@ -40,17 +40,19 @@ parse_repo() {
 	if [[ "${name}" =~ [Dd]ocker ]]; then
 	    docker=1
 	fi
-        encoded_name="$(urlencode "$name")"
+        encoded_name="$(urlencode "${name}")"
         writeout " ["
-        writeout "![${name}](${repo}/workflows/$encoded_name/badge.svg)"
+        writeout "![${name}](${repo}/workflows/${encoded_name}/badge.svg)"
         writeout "]"
-        writeout "(${repo}/actions?query=workflow:\"$encoded_name\")"
-    done < <(curl -sL "https://api.github.com/repos/$1/actions/workflows" | jq -r '.workflows[].name')
+        writeout "(${repo}/actions?query=workflow:\"${encoded_name}\")"
+    done < <(curl -sL "https://api.github.com/repos/${1}/actions/workflows" | jq -r '.workflows[].name')
 
     if [ ${docker} -eq 1 ]; then
 	repo_short="${project/\/docker-/\/}"
         writeout " [![Docker Build](https://img.shields.io/docker/cloud/build/${repo_short})](https://hub.docker.com/r/${repo_short})"
     fi
+    
+    writeout " [![GitHub PR](https://img.shields.io/github/issues-pr/${encoded_name}.svg)](https://GitHub.com/${encoded_name}/pull/)"
     
     writeout " |\n"
     echo " Generated markdown for $1"
