@@ -49,10 +49,10 @@ parse_repo() {
 
     if [ ${docker} -eq 1 ]; then
 	repo_short="${project/\/docker-/\/}"
-        writeout " [![Docker Build](https://img.shields.io/docker/cloud/build/${repo_short})](https://hub.docker.com/r/${repo_short})"
+        writeout " [![Docker Build](https://img.shields.io/docker/cloud/build/${1})](https://hub.docker.com/r/${1})"
     fi
     
-    writeout " [![GitHub PR](https://img.shields.io/github/issues-pr/${encoded_name}.svg)](https://GitHub.com/${encoded_name}/pull/)"
+    writeout " [![GitHub PR](https://img.shields.io/github/issues-pr/${1}.svg)](https://GitHub.com/${1}/pull/)"
     
     writeout " |\n"
     echo " Generated markdown for $1"
