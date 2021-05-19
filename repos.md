@@ -16,7 +16,6 @@ thomasleplus/docker-hash
 thomasleplus/docker-img
 thomasleplus/docker-java-info
 thomasleplus/docker-json
-thomasleplus/docker-kafka
 thomasleplus/docker-kali
 thomasleplus/docker-latex
 thomasleplus/docker-pdf
