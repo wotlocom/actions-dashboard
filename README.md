@@ -52,4 +52,3 @@ listed in the input files.
 * Edit
   [`.github/workflows/check-for-workflows.yml`](.github/workflows/check-for-workflows.yml)
   to run `generate.sh` with your command options in the `Generate` step.
-
