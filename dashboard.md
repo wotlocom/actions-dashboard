@@ -1,5 +1,6 @@
 | Repo | Actions |
 | --- | --- |
+| https://github.com/thomasleplus/.allstar | [![GitHub PR](https://img.shields.io/github/issues-pr/thomasleplus/.allstar.svg)](https://GitHub.com/thomasleplus/.allstar/pulls) |
 | https://github.com/thomasleplus/actions-dashboard | [![Check for workflows](https://github.com/thomasleplus/actions-dashboard/workflows/Check%20for%20workflows/badge.svg)](https://github.com/thomasleplus/actions-dashboard/actions?query=workflow:"Check%20for%20workflows") [![GitHub PR](https://img.shields.io/github/issues-pr/thomasleplus/actions-dashboard.svg)](https://GitHub.com/thomasleplus/actions-dashboard/pulls) |
 | https://github.com/thomasleplus/ADO | [![ShellCheck](https://github.com/thomasleplus/ADO/workflows/ShellCheck/badge.svg)](https://github.com/thomasleplus/ADO/actions?query=workflow:"ShellCheck") [![GitHub PR](https://img.shields.io/github/issues-pr/thomasleplus/ADO.svg)](https://GitHub.com/thomasleplus/ADO/pulls) |
 | https://github.com/thomasleplus/android-nfc-timestamp | [![Gradle](https://github.com/thomasleplus/android-nfc-timestamp/workflows/Gradle/badge.svg)](https://github.com/thomasleplus/android-nfc-timestamp/actions?query=workflow:"Gradle") [![GitHub PR](https://img.shields.io/github/issues-pr/thomasleplus/android-nfc-timestamp.svg)](https://GitHub.com/thomasleplus/android-nfc-timestamp/pulls) |

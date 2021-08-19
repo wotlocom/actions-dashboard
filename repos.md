@@ -1,3 +1,4 @@
+thomasleplus/.allstar
 thomasleplus/actions-dashboard
 thomasleplus/ADO
 thomasleplus/android-nfc-timestamp
