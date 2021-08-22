@@ -1,7 +1,6 @@
 thomasleplus/.allstar
 thomasleplus/actions-dashboard
 thomasleplus/ADO
-thomasleplus/allstar
 thomasleplus/android-nfc-timestamp
 thomasleplus/Asn1dump
 thomasleplus/bazaar
