@@ -1,4 +1,4 @@
-## Github Actions dashboard
+# Github Actions dashboard
 
 This tool generates a dashboard that shows live status of all github action
 workflows in a given set of github repositories.
