@@ -45,6 +45,7 @@ thomasleplus/raspberry-pi-gpio
 thomasleplus/raspberry-pi-utils
 thomasleplus/ristretto
 thomasleplus/SubChannel
+thomasleplus/thomasleplus
 thomasleplus/tinkerit
 thomasleplus/VisualCrypto
 thomasleplus/xee
