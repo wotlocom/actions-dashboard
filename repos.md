@@ -32,6 +32,8 @@ thomasleplus/gcontacts-birthdays
 thomasleplus/gdrive-archive
 thomasleplus/gphotos-archive
 thomasleplus/gpsio
+thomasleplus/hadoop
+thomasleplus/j2objc
 thomasleplus/java-sql-inspector
 thomasleplus/JavaInfo
 thomasleplus/jdk-serial-filter-trace
@@ -41,6 +43,7 @@ thomasleplus/kml-utils
 thomasleplus/macosx
 thomasleplus/openid-connect-provider-debugger
 thomasleplus/pingidentity-server-profiles
+thomasleplus/pulsar
 thomasleplus/raspberry-pi-gpio
 thomasleplus/raspberry-pi-utils
 thomasleplus/ristretto
