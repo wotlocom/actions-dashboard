@@ -33,7 +33,6 @@ thomasleplus/gcontacts-birthdays
 thomasleplus/gdrive-archive
 thomasleplus/gphotos-archive
 thomasleplus/gpsio
-thomasleplus/j2objc
 thomasleplus/java-sql-inspector
 thomasleplus/JavaInfo
 thomasleplus/jdk-serial-filter-trace
