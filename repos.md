@@ -41,7 +41,6 @@ thomasleplus/jwt-utils
 thomasleplus/kml-utils
 thomasleplus/macosx
 thomasleplus/openid-connect-provider-debugger
-thomasleplus/pulsar
 thomasleplus/raspberry-pi-gpio
 thomasleplus/raspberry-pi-utils
 thomasleplus/ristretto
