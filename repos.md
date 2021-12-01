@@ -2,6 +2,7 @@ thomasleplus/.allstar
 thomasleplus/actions-dashboard
 thomasleplus/ADO
 thomasleplus/android-nfc-timestamp
+thomasleplus/Arduino
 thomasleplus/Asn1dump
 thomasleplus/bazaar
 thomasleplus/bookmarklets
