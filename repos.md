@@ -1,6 +1,7 @@
 thomasleplus/.allstar
 thomasleplus/actions-dashboard
 thomasleplus/ADO
+thomasleplus/amazon-cloudfront-secure-static-site
 thomasleplus/android-nfc-timestamp
 thomasleplus/Arduino
 thomasleplus/Asn1dump
