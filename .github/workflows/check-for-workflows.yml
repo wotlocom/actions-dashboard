@@ -31,4 +31,4 @@ jobs:
         git config user.name "check-action"
         git add repos.md dashboard.md
         git commit -m "Update markdown files"
-        git push origin master
+        git push origin "${GITHUB_REF#refs/heads/}"
