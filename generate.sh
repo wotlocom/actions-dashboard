@@ -70,23 +70,20 @@ done
 
 [[ "$output_file" != *.md ]] && output_file="$output_file".md
 
-tmpd="$(mktemp -d -t dashboardXXXX)"
-
 writeout "| Repo | Actions |\n"
 writeout "| --- | --- |\n"
 for i in "${inputs[@]}"; do
     echo Generating markdown for "${i##*/}"...
     count=0
-    while read -r line; do
+    { if isurl "$i"; then curl -sL "$i"; else cat "$i"; fi } | while read -r line; do
         [[ "$line" = \#* ]] && continue
         [ -z "$line" ] && continue
         parse_repo "$line"
         count=$((count+1))
-    done < <(if isurl "$i"; then curl -sL "$i"; else cat "$i"; fi)
+    done
     [ $count -eq 0 ] && { echo "Failed to read $i"; exit 1; }
     writeout "---\n\n"
 done
 
 echo -e "$output" > "$output_file"
 echo Wrote to "$output_file"
-rm -rf "$tmpd"

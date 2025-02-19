@@ -38,18 +38,15 @@ done
 
 [[ "$output_file" != *.md ]] && output_file="$output_file".md
 
-tmpd="$(mktemp -d -t dashboardXXXX)"
-
 echo Generating markdown for "$username"...
 count=0
-while read -r line; do
+curl -sL --header "authorization: Bearer ${GITHUB_TOKEN}" "https://api.github.com/users/$username/repos?per_page=100"  | jq -r '.[].full_name' | while read -r line; do
     [[ "$line" = \#* ]] && continue
     [ -z "$line" ] && continue
     writeout "$line\n"
     count=$((count+1))
-done < <(curl -sL --header "authorization: Bearer ${GITHUB_TOKEN}" "https://api.github.com/users/$username/repos?per_page=100"  | jq -r '.[].full_name' )
+done
 [ $count -eq 0 ] && { echo "Failed to read"; exit 1; }
 
 echo -e "$output" > "$output_file"
 echo Wrote to "$output_file"
-rm -rf "$tmpd"
