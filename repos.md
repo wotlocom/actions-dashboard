@@ -1,23 +1,4 @@
-leplusorg/.allstar
-leplusorg/.github
-leplusorg/actions-dashboard
-leplusorg/docker-av
-leplusorg/docker-aws-cli
-leplusorg/docker-compress
-leplusorg/docker-crypt
-leplusorg/docker-csv
-leplusorg/docker-hash
-leplusorg/docker-img
-leplusorg/docker-json
-leplusorg/docker-kali
-leplusorg/docker-latex
-leplusorg/docker-maven-check-versions
-leplusorg/docker-pdf
-leplusorg/docker-pgp-verify-jar
-leplusorg/docker-qrcode
-leplusorg/docker-tor
-leplusorg/docker-xml
-leplusorg/docker-yaml
-leplusorg/openid-connect-provider-debugger
-leplusorg/ristretto
+wotlocom/.allstar
+wotlocom/actions-dashboard
+wotlocom/wotlo
 
