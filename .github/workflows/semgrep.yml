@@ -32,40 +32,170 @@ jobs:
         run: |
           set -euo pipefail
           IFS=$'\n\t'
-          semgrep ci --baseline-commit --code --error \
+          # Do not use --config r/all as it includes rules written by unknown authors
+          semgrep ci --metrics=off --baseline-commit --code --error \
+            --config p/apex \
+            --config p/auto \
+            --config p/brakeman \
+            --config p/c-audit-banned-functions \
             --config p/c \
             --config p/ci \
+            --config p/command-injection \
+            --config p/comment \
+            --config p/cpp-alpha-audit-banned-functions \
+            --config p/cpp-alpha-audit \
+            --config p/cpp-alpha-ci \
+            --config p/cpp-audit \
+            --config p/csharp-interfile \
+            --config p/csharp \
+            --config p/cwe-top-25 \
+            --config p/deepsemgrep \
+            --config p/default \
+            --config p/django \
+            --config p/docker-compose \
             --config p/docker \
+            --config p/dockerfile \
+            --config p/electron-desktop-app \
+            --config p/elixir \
             --config p/expressjs \
+            --config p/fastapi \
+            --config p/findsecbugs \
             --config p/flask \
-            --config p/insecure-transport \
+            --config p/gitleaks \
+            --config p/golang \
+            --config p/hapi \
+            --config p/java \
+            --config p/javascript \
             --config p/jwt \
+            --config p/koa \
+            --config p/kotlin \
+            --config p/kubernetes \
+            --config p/lockfiles \
+            --config p/nestjs \
+            --config p/nextjs \
+            --config p/nodejs \
+            --config p/ocaml \
+            --config p/owasp-top-ten \
+            --config p/php \
+            --config p/phpcs-security-audit \
+            --config p/python-alpha-ci \
             --config p/python \
+            --config p/r2c-best-practices \
+            --config p/r2c-bug-scan \
+            --config p/r2c-ci \
+            --config p/r2c-security-audit \
             --config p/r2c \
+            --config p/react-best-practices \
+            --config p/react-team-tier \
             --config p/react \
+            --config p/replit-community \
+            --config p/ruby-on-rails-xss \
             --config p/ruby \
+            --config p/rust \
+            --config p/scala \
+            --config p/secrets-default \
             --config p/secrets \
-            --config p/security-audit
+            --config p/secure-defaults \
+            --config p/security-audit \
+            --config p/security-headers \
+            --config p/semgrep-misconfigurations \
+            --config p/semgrep-rule-ci \
+            --config p/semgrep-rule-lints \
+            --config p/semgrep-secrets-ai \
+            --config p/shadow-ai-pro \
+            --config p/shadow-ai \
+            --config p/sql-injection \
+            --config p/supply-chain \
+            --config p/swift \
+            --config p/terraform \
+            --config p/test-pinned-version \
+            --config p/typescript \
+            --config p/xss
       - name: Run Semgrep for push
         if: ${{ github.event_name != 'pull_request' }}
         shell: bash
         run: |
           set -euo pipefail
           IFS=$'\n\t'
-          semgrep scan --sarif --sarif-output=semgrep-results.sarif \
+          # Do not use --config r/all as it includes rules written by unknown authors
+          semgrep scan --metrics=off --sarif --sarif-output=semgrep-results.sarif \
+            --config p/apex \
+            --config p/auto \
+            --config p/brakeman \
+            --config p/c-audit-banned-functions \
             --config p/c \
             --config p/ci \
+            --config p/command-injection \
+            --config p/comment \
+            --config p/cpp-alpha-audit-banned-functions \
+            --config p/cpp-alpha-audit \
+            --config p/cpp-alpha-ci \
+            --config p/cpp-audit \
+            --config p/csharp-interfile \
+            --config p/csharp \
+            --config p/cwe-top-25 \
+            --config p/deepsemgrep \
+            --config p/default \
+            --config p/django \
+            --config p/docker-compose \
             --config p/docker \
+            --config p/dockerfile \
+            --config p/electron-desktop-app \
+            --config p/elixir \
             --config p/expressjs \
+            --config p/fastapi \
+            --config p/findsecbugs \
             --config p/flask \
-            --config p/insecure-transport \
+            --config p/gitleaks \
+            --config p/golang \
+            --config p/hapi \
+            --config p/java \
+            --config p/javascript \
             --config p/jwt \
+            --config p/koa \
+            --config p/kotlin \
+            --config p/kubernetes \
+            --config p/lockfiles \
+            --config p/nestjs \
+            --config p/nextjs \
+            --config p/nodejs \
+            --config p/ocaml \
+            --config p/owasp-top-ten \
+            --config p/php \
+            --config p/phpcs-security-audit \
+            --config p/python-alpha-ci \
             --config p/python \
+            --config p/r2c-best-practices \
+            --config p/r2c-bug-scan \
+            --config p/r2c-ci \
+            --config p/r2c-security-audit \
             --config p/r2c \
+            --config p/react-best-practices \
+            --config p/react-team-tier \
             --config p/react \
+            --config p/replit-community \
+            --config p/ruby-on-rails-xss \
             --config p/ruby \
+            --config p/rust \
+            --config p/scala \
+            --config p/secrets-default \
             --config p/secrets \
-            --config p/security-audit
+            --config p/secure-defaults \
+            --config p/security-audit \
+            --config p/security-headers \
+            --config p/semgrep-misconfigurations \
+            --config p/semgrep-rule-ci \
+            --config p/semgrep-rule-lints \
+            --config p/semgrep-secrets-ai \
+            --config p/shadow-ai-pro \
+            --config p/shadow-ai \
+            --config p/sql-injection \
+            --config p/supply-chain \
+            --config p/swift \
+            --config p/terraform \
+            --config p/test-pinned-version \
+            --config p/typescript \
+            --config p/xss
       - name: Upload Semgrep scan results to GitHub Security tab
         if: ${{ github.event_name != 'pull_request' }}
         uses: github/codeql-action/upload-sarif@192325c86100d080feab897ff886c34abd4c83a3 # v3.29.5
